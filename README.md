@@ -16,7 +16,7 @@ Using a gryoscope and a pico to measure the difference in rotation speed between
 ### Images
 
 
-
+<img src="Images/Frisbee Iteration #1.JPG" alt="first design ideas" width="250" height="100">
 
 
 
