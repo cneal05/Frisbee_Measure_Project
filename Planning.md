@@ -1,7 +1,7 @@
+# Planning
+
 ## Table of Content
 [Barinstorming](#brainstorming)
-
-
 
 <br>
 <br>
