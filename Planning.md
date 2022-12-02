@@ -1,7 +1,16 @@
 # Planning
 
 ## Table of Content
-[Brainstorming](#brainstorming)
+* [Brainstorming](#brainstorming)
+* [Potential Design](#potential-designs)
+* [Functionality](#functionality)
+* [Materials](#materials)
+* [have to learn](#what-do-we-need-to-learn)
+* [what is success](#what-is-success-for-our-project)
+   * [Safety](#safety)
+* [Schedule](#schedule)
+* [Images](#images) 
+
 
 <br>
 <br>
@@ -93,3 +102,13 @@ Documentation | Week 1-15 |
 
 <img src="Images/Original_Frisbee_Idea.jpg" alt="first design ideas" width="500" height="250">
 <img src="Images/Frisbee Iteration v.1.JPG" alt="first design ideas" width="850" height="250">
+
+
+
+
+
+<br>
+<br>
+
+
+# [BACK TO TOP](#planning)
