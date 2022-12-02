@@ -91,3 +91,5 @@ Documentation | Week 1-15 |
 
 ### Images
 
+<img src="Images/Original_Frisbee_Idea.jpg" alt="first design ideas" width="500" height="250">
+<img src="Images/Frisbee Iteration v.1.JPG" alt="first design ideas" width="850" height="250">
