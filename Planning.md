@@ -40,7 +40,7 @@ Using a gryoscope and a pico to measure the difference in rotation speed between
 Pod attaches to frisbee somehow, ideas on how above, and in the pod there is a Pico, a gryoscope, powerboost module, and a Lipo Battery. With those components we would be able to measure angular velocity of how fast the frisbee is rotating.
 
   * #### Block Diagram-Sample Code
-    <img src="Images/SampleCode.jpg" alt="Sample Code" width="250" height="500">
+    <img src="Images/SampleCode.jpg" alt="Sample Code" width="350" height="450">
 
 <br>
 <br>
