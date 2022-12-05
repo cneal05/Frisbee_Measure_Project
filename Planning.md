@@ -4,7 +4,7 @@
 * [Brainstorming](#brainstorming)
 * [Potential Design](#potential-designs)
 * [Functionality](#functionality)
-   * [Sample Code](block-diagram/sample-code)
+   * [Sample Code](#block-diagram/sample-code)
 * [Materials](#materials)
 * [Have to learn](#what-do-we-need-to-learn)
 * [What is success](#what-is-success-for-our-project)
