@@ -8,10 +8,7 @@ Using this repo as a documentation place for my Frisbee Measure Project
 
 ![iteration #1](Images/Frisbee%20Iteration%20v.1.JPG)
 
-
-
-
-<img src="Images/        " alt="         " width="500" height="500">
+<img src="Images/SampleCode.jpg" alt="Sample code of how the project will work" width="750" height="750">
 
 
 <br>
