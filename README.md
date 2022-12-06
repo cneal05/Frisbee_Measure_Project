@@ -10,7 +10,7 @@ Using this repo as a documentation place for my Frisbee Measure Project
 
 <img src="Images/SampleCode.jpg" alt="Sample code of how the project will work" width="750" height="750">
 
-![Getting the Gyro to work](Images/Working%20Gyro(v.1).mov)
+![Getting the Gyro to work](Images/Working%20Gyro(v.1).gif)
 
 <br>
 <br>
