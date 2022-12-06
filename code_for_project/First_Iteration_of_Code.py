@@ -13,10 +13,10 @@ list_y = []
 list_z = []
 
 while True:
-    x_angular_velocity = "x = %s" % mpu.gyro[0]
-    y_angular_velocity = "x = %s" % mpu.gyro[1]
-    z_angular_velocity = "x = %s" % mpu.gyro[2]
-    list_x = list_x + x_angular_velocity 
+    x_angular_velocity = mpu.gyro[0]
+    y_angular_velocity = mpu.gyro[1]
+    z_angular_velocity = mpu.gyro[2]
+    list_x = [list_x, x_angular_velocity]
     list_y = list_y + y_angular_velocity 
     list_z = list_z + z_angular_velocity 
     print(z_angular_velocity)
