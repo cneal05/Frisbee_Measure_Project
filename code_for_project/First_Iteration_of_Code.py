@@ -33,3 +33,4 @@ while True:
     if current_time > 2 and mpu.gyro[0]+mpu.gyro[1]+mpu.gyro[2]<1:
         break
 #break out of while true and save data
+#jnhedjbzsdfkjozbdia
