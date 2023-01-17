@@ -7,6 +7,8 @@ Using this repo as a documentation place for the Frisbee Measure Project
  ## Table of Content
  
  * [Images](#progress-images)
+ 
+ * [Timeline](#timeline-weekly)
 
 
 
@@ -14,9 +16,11 @@ Using this repo as a documentation place for the Frisbee Measure Project
 <br>
 
 
-## TimeLine (weekly)
+## Timeline (weekly)
 
-* 01/09/2023  =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection 
+* **01/09/2023** =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection.
+
+* **01/17/2023** =  
 
 
 
