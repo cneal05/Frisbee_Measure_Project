@@ -6,12 +6,17 @@ Using this repo as a documentation place for the Frisbee Measure Project
  
  ## Table of Content
  
- * [Images](progress-images)
+ * [Images](#progress-images)
 
 
 
+<br>
+<br>
 
 
+## TimeLine (weekly)
+
+* 01/09/2023  =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection 
 
 
 
