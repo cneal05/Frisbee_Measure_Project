@@ -20,7 +20,11 @@ Using this repo as a documentation place for the Frisbee Measure Project
 
 * **01/09/2023** =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection.
 
-* **01/17/2023** =  
+* **01/17/2023** =  Finished CAD Designs of the **enclousure** and placed them for printing.
+
+   * **01/19/2023** = the printed designs were finished but were incorrect. The **enclousure** was too short for the whole circuit, so all the measurements were fixed and checked, and the new enclousure was placed for printing.
+
+* **01/23/23** = the 
 
 
 
