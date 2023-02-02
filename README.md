@@ -10,9 +10,9 @@ Using this repository as a documentation place for the Frisbee Measure Project
  
  ## Table of Content
  
- * [Images](#progress-images)
- 
  * [Timeline](#timeline-weekly)
+ 
+ * [Images](#progress-images)
  
  * [CAD Designs](#cad-designs)
  
