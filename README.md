@@ -35,7 +35,9 @@ Using this repository as a documentation place for the Frisbee Measure Project
 
 * **01/30/23** = By the end of this week, the module (**circuit** and **enclosure**) will be completed
 
-   * **02/06/23**  = Will find center of mass, and mount module, and mostly likely the first test launch will take place. 
+   * **02/06/23**  = Will find center of mass, and mount module, and mostly likely the first test launch will take place.
+   
+   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed.
    
 
 <br>
@@ -83,7 +85,11 @@ Using this repository as a documentation place for the Frisbee Measure Project
 
 <br>
 
+* The first test launch of the Module mounted, but **NOT** collecting **Data**.
 
+<img src="Images/First Test Launch.jpg" alt="the module after being launched." width="500" height="520">
+
+<img src="Images/Test Launch.gif" alt="video of the module being launched." width="650" height="600">
 
 
 ### CAD Designs
