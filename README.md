@@ -29,15 +29,17 @@ Using this repository as a documentation place for the Frisbee Measure Project
 
 * **01/17/2023** =  Finished CAD Designs of the **enclousure** and placed them for printing.
 
-   * **01/19/2023** = the printed designs were finished but were incorrect. The **enclousure** was too short for the whole circuit, so all the measurements were fixed and checked, and the new enclousure was placed for printing.
+   * **01/19/2023** = the printed designs were finished but were incorrect. The **enclousure**turned out to be short for the whole circuit, so all the measurements were fixed and checked, and the new enclousure was placed for printing.
 
-* **01/23/23** = the new enclosure is printed
+* **01/23/23** = the new enclosure is printed, and began sanding edges and gaps to prevent collisions.
 
-* **01/30/23** = By the end of this week, the module (**circuit** and **enclosure**) will be completed
+* **01/30/23** = By the end of this week, the module (**circuit** and **enclosure**) will be completed.
 
    * **02/06/23**  = Will find center of mass, and mount module, and mostly likely the first test launch will take place.
    
-   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed.
+   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed. A small cut out is incorporated to get access to the power switch as it was inaccessible before.
+   
+   * **02/03/23** = a small cutout made in the enclosure is made to grant access to the power switch inside. 
    
 
 <br>
@@ -90,6 +92,12 @@ Using this repository as a documentation place for the Frisbee Measure Project
 <img src="Images/First Test Launch.jpg" alt="the module after being launched." width="500" height="520">
 
 <img src="Images/Test Launch.gif" alt="video of the module being launched." width="650" height="600">
+
+<br>
+
+* a cutout was made separatly so that we can get access to the power switch **inside** the enclosure.
+
+<img src="Images/Module Cutout on Top.jpg" alt="small cutout for acess to power switch" width="650" height="600">
 
 
 ### CAD Designs
