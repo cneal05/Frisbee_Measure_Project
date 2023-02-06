@@ -23,6 +23,9 @@ Using this repository as a documentation place for the Frisbee Measure Project
 
 <br>
 
+<details><summary>CLICK ME</summary>
+<p>
+
 ### Timeline (weekly)
 
 * **01/09/2023** =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection.
@@ -39,8 +42,12 @@ Using this repository as a documentation place for the Frisbee Measure Project
    
    * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed. A small cut out is incorporated to get access to the power switch as it was inaccessible before.
    
-   * **02/03/23** = a small cutout made in the enclosure is made to grant access to the power switch inside. 
+   * **02/03/23** = A small cutout made in the enclosure is made to grant access to the power switch inside. 
    
+* **02/05/23** = Testing to see if the module collects data and stores it when thrown most likely multiple times. 
+   
+</p>
+</details>
 
 <br>
 <br>
@@ -59,6 +66,19 @@ Using this repository as a documentation place for the Frisbee Measure Project
 ![iteration #1](Images/Frisbee%20Iteration%20v.1.JPG)
 
 <br>
+
+
+```mermaid
+graph TD;
+    A[(Press Button/ Flip Switch)] --> B(Begins Data Collection);
+    B -->C{End of Data Collection};
+    C --> |running in the background| D([When RPS = Many Certain Values for a decided amount of time -> flight = over => End Data Collection]);
+    C -->E(If button = True for 5 seconds or more);
+    E -->B;
+    E --> F[False];
+    F --> G([END]);
+```
+
 
 * Psuedocoding of our module and how the code will look.
 
@@ -182,7 +202,6 @@ while True:
     print(z_angular_velocity)
 
 ```
-
 
 
 
