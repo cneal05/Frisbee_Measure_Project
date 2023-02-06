@@ -23,7 +23,7 @@ Using this repository as a documentation place for the Frisbee Measure Project
 
 <br>
 
-<details><summary>CLICK ME</summary>
+<details><summary>CLICK ME (TimeLine)</summary>
 <p>
 
 ### Timeline (weekly)
