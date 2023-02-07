@@ -18,13 +18,46 @@ Using this repository as a documentation place for the Frisbee Measure Project
  
  * [CODE](#code)
  
- 
+<br>
 <br>
 
 ---
 
 <br>
+<br>
 
+
+### Iterations
+
+<br>
+
+* How our module might look with the Frisbee
+
+![iteration #1](Images/Frisbee%20Iteration%20v.1.JPG)
+
+<br>
+
+* Psuedocoding of our module and how the code will look.
+
+
+```mermaid
+graph TD;
+    A[(Press Button/ Flip Switch)] --> B(Begins Data Collection);
+    B -->C{End of Data Collection};
+    C --> |running in the background| D([When RPS = Many Certain Values for a decided amount of time -> flight = over => End Data Collection]);
+    C -->E(If button = True for 5 seconds or more);
+    E -->B;
+    E --> F[False];
+    F --> G([END]);
+```
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
 
 
 ### Timeline (weekly)
@@ -70,32 +103,6 @@ Using this repository as a documentation place for the Frisbee Measure Project
 <br>
 <br>
 
-
-<br>
-
-### Iterations
-
-<br>
-
-* How our module might look with the Frisbee
-
-![iteration #1](Images/Frisbee%20Iteration%20v.1.JPG)
-
-<br>
-
-* Psuedocoding of our module and how the code will look.
-
-
-```mermaid
-graph TD;
-    A[(Press Button/ Flip Switch)] --> B(Begins Data Collection);
-    B -->C{End of Data Collection};
-    C --> |running in the background| D([When RPS = Many Certain Values for a decided amount of time -> flight = over => End Data Collection]);
-    C -->E(If button = True for 5 seconds or more);
-    E -->B;
-    E --> F[False];
-    F --> G([END]);
-```
 
 <br>
 
