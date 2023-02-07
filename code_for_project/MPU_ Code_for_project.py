@@ -4,6 +4,7 @@ import busio
 import board
 import time
 import digitalio
+import math
 #assigns the scl to GP6 and assigns sda to GP7 on the pico board
 sda_pin = board.GP6
 scl_pin = board.GP7
@@ -32,7 +33,7 @@ while True:
     list_time.append(time.monotonic())
     #print(z_angular_velocity)
     current_time = time.monotonic() - timer
-    if current_time > 2 and mpu.gyro[0]+mpu.gyro[1]+mpu.gyro[2]<1:
+    if current_time > 2 and math.fabs(mpu.gyro[0]+mpu.gyro[1]+mpu.gyro[2])<1:
         break
 #break out of while true and save data
 Values=open(f"/data/{time.monotonic()}.csv","w")
