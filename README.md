@@ -16,6 +16,8 @@ Using this repository as a documentation place for the Frisbee Measure Project
  
  * [CAD Designs](#cad-designs)
  
+ * [CODE](#code)
+ 
  
 <br>
 
@@ -23,10 +25,12 @@ Using this repository as a documentation place for the Frisbee Measure Project
 
 <br>
 
-<details><summary>CLICK ME (TimeLine)</summary>
-<p>
+
 
 ### Timeline (weekly)
+
+<details><summary>CLICK ME</summary>
+<p>
 
 * **01/09/2023** =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection.
 
@@ -46,6 +50,13 @@ Using this repository as a documentation place for the Frisbee Measure Project
    
 * **02/05/23** = Testing to see if the module collects data and stores it when thrown most likely multiple times. 
    
+   
+   
+<br>
+
+### [BACK TO TimeLine](#timeline-weekly)
+
+   
 </p>
 </details>
 
@@ -57,7 +68,10 @@ Using this repository as a documentation place for the Frisbee Measure Project
 <br>
 <br>
 
-### Progress Images
+
+<br>
+
+### Iterations
 
 <br>
 
@@ -66,6 +80,8 @@ Using this repository as a documentation place for the Frisbee Measure Project
 ![iteration #1](Images/Frisbee%20Iteration%20v.1.JPG)
 
 <br>
+
+* Psuedocoding of our module and how the code will look.
 
 
 ```mermaid
@@ -79,10 +95,14 @@ graph TD;
     F --> G([END]);
 ```
 
+<br>
 
-* Psuedocoding of our module and how the code will look.
+### Progress Images
 
-<img src="Images/SampleCode.jpg" alt="Sample code of how the project will work" width="750" height="750">
+<br>
+
+<details><summary>CLICK ME</summary>
+<p>
 
 <br>
 
@@ -122,10 +142,10 @@ graph TD;
 
 <br>
 
+### [BACK TO Progress Images](#progress-images)
 
-
-
-
+</p>
+</details>
 
 <br>
 <br>
@@ -136,6 +156,9 @@ graph TD;
 <br>
 
 ### CAD Designs
+
+<details><summary>CLICK ME</summary>
+<p>
 
 **Description:** All the designs and iterations completed to get a virtual visual of the final build are present in the OnShape Document.
 
@@ -149,6 +172,13 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <img src="Images/CAD Completed Circuit in Enclosure.PNG" alt="... together with the top cover2." width="750" height="650">
 
+<br>
+<br>
+
+### [BACK TO CAD Designs](#cad-designs)
+
+</p>
+</details>
 
 <br>
 <br>
@@ -159,6 +189,11 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 
 ### CODE
+
+<details><summary>CLICK ME</summary>
+<p>
+
+<br>
 
 **Description:** All *iterations* and **methods** to make the circuit, functions as should are present. The code runs the **methods**, and collects the data recieved and puts them in a **VCS file** which displays the Angular velcoity and time in an excel sheet.
 
@@ -201,11 +236,20 @@ while True:
     list_z = [list_z, z_angular_velocity]
     print(z_angular_velocity)
 
+
 ```
 
 
+### [BACK TO Code](#code)
 
+
+</p>
+</details>
 
 <br>
+
+
+
+---
 
 # [BACK TO TOP](#frisbee_measure_project)
