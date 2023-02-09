@@ -196,6 +196,27 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 <br>
 
+<details><summary>CIRCUIT</summary>
+<p>
+
+<br>
+
+* The Circuit was completed in **ONSHAPE** to be used as a model for making an **enclosure** that the Circuit would be placed in.
+
+<img src="Images/Circuit (front view).PNG" alt="The circuit model from the front." width="850" height="340">
+
+<img src="Images/Circuit (side view).PNG" alt="The circuit model from the side." width="850" height="340">
+
+<img src="Images/Circuit (isotopic view).PNG" alt="The circuit model from the front." width="750" height="600">
+
+
+</p>
+</details>
+
+
+<br>
+<br>
+
 ### [BACK TO CAD Designs](#cad-designs)
 
 </p>
