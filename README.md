@@ -233,7 +233,7 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 * The frisbee was imported from a public document, and then altered to fit our frisbee's dimentions as best as possible. The **curves** of the frisbee couldn't be measured, and no **schematics** were found to get any dimentions. 
  
 * this was the 
-<img src="Images/Frisbee (changed [dimentions]).PNG" alt="The circuit model from the front." width="850" height="340">
+<img src="Images/" alt="The circuit model from the front." width="850" height="340">
 
 <img src="Images/Frisbee (changed).PNG" alt="The circuit model from the side." width="850" height="340">
 
