@@ -194,7 +194,11 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <img src="Images/CAD Completed Circuit in Enclosure.PNG" alt="... together with the top cover2." width="750" height="650">
 
 <br>
+
+---
+
 <br>
+
 
 <details><summary>CIRCUIT</summary>
 <p>
@@ -208,6 +212,33 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <img src="Images/Circuit (side view).PNG" alt="The circuit model from the side." width="850" height="340">
 
 <img src="Images/Circuit (isotopic view).PNG" alt="The circuit model from the front." width="750" height="600">
+
+
+</p>
+</details>
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+<details><summary>Frisbee</summary>
+<p>
+
+<br>
+
+* The frisbee was imported from a public document, and then altered to fit our frisbee's dimentions as best as possible. The 
+
+<img src="Images/Frisbee (changed [dimentions]).PNG" alt="The circuit model from the front." width="850" height="340">
+
+<img src="Images/Frisbee (changed).PNG" alt="The circuit model from the side." width="850" height="340">
+
+<img src="Images/Frisbee (original [dimentions]).PNG" alt="The circuit model from the front." width="750" height="600">
+
+<img src="Images/Frisbee (original).PNG" alt="The circuit model from the front." width="750" height="600">
 
 
 </p>
