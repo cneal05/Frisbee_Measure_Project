@@ -230,16 +230,23 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <br>
 
-* The frisbee was imported from a public document, and then altered to fit our frisbee's dimentions as best as possible. The **curves** of the frisbee couldn't be measured, and no **schematics** were found to get any dimentions. 
+* The frisbee was imported from a public document, and then altered to fit our frisbee's dimensions as best as possible. The **curves** of the frisbee couldn't be measured, and no **schematics** were found to get any dimensions. 
  
-* this was the original 
-<img src="Images/Frisbee (original [dimentions]).PNG" alt="The circuit model from the front." width="850" height="340">
+* this is the original **dimension** of the **frisbee** that changed to fit our **frisbee**.
+ 
+<img src="Images/Frisbee (original [dimentions]).PNG" alt="the frisbee in its original dimensions" width="950" height="340">
 
-<img src="Images/Frisbee (changed).PNG" alt="The circuit model from the side." width="850" height="340">
+<img src="Images/Frisbee (original).PNG" alt="The circuit model from the front." width="900" height="130">
 
-<img src="Images/Frisbee (changed [dimensions]).PNG" alt="The circuit model from the front." width="750" height="600">
+<br>
+<br>
+ 
+* This is the **firsbee** with our **dimensions** and **diameter** to fit the enclosure. 
 
-<img src="Images/Frisbee (original).PNG" alt="The circuit model from the front." width="750" height="600">
+<img src="Images/Frisbee (changed [dimensions]).PNG" alt="The circuit model from the front." width="950" height="300">
+
+<img src="Images/Frisbee (changed).PNG" alt="The circuit model from the side." width="950" height="150">
+
 
 
 </p>
