@@ -248,13 +248,51 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <img src="Images/Frisbee (changed).PNG" alt="The circuit model from the side." width="950" height="150">
 
 
-
 </p>
 </details>
 
 
 <br>
 <br>
+
+---
+
+<br>
+<br>
+
+<details><summary>Circuit Holder + Everything In It</summary>
+<p>
+
+<br>
+
+* This **first** version of the holder was designed to be **weather proof** so for that reason it was completly covering the **Circuit** and had to be **unscrewed** from the frisbee in order to get access to the **circuit.**
+
+<img src="Images/Circuit Holder (v.1).PNG" alt="First version of the holder" width="850" height="650">
+
+<br>
+<br>
+
+* This new Iteration changes the previous build by **inverting** the holder so that the circuit would be **accessible** without the need to unscrew the whole **enclosure**. 
+
+
+
+
+
+
+
+</p>
+</details>
+
+
+
+
+
+
+
+
+<br>
+<br>
+
 
 ### [BACK TO CAD Designs](#cad-designs)
 
