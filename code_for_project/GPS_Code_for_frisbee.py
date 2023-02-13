@@ -77,7 +77,7 @@ while True:
             break
         #break out of while true and save data
         '''
-    Values=open(f"/data/Fix timestamp: {}/{}/{} {:02}:{:02}:{:02}".format(
+    Values=open(f"/data-{}-{}-{} {:02}:{:02}:{:02}".format(
                 gps.timestamp_utc.tm_mon,  # Grab parts of the time from the
                 gps.timestamp_utc.tm_mday,  # struct_time object that holds
                 gps.timestamp_utc.tm_year,  # the fix time.  Note you might
@@ -86,4 +86,4 @@ while True:
                 gps.timestamp_utc.tm_sec,.csv),"w")
     for i in range(len(list_z)):
         Values.write(f"{list_time[i]}{list_z[i]}\n")
-    Values.close'''
+    Values.close
