@@ -260,7 +260,7 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 <br>
 
-<details><summary>Circuit Holder + Everything In It</summary>
+<details><summary>CIRCUIT HOLDER + EVERYTHING IN IT</summary>
 <p>
 
 <br>
