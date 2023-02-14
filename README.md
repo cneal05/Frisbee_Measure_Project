@@ -85,6 +85,8 @@ graph TD;
 
    * **02/07/23** = Starting to write **new code** for **GPS**.
    
+* **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file. 
+   
    
    
 <br>
@@ -213,6 +215,9 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <img src="Images/Circuit (isotopic view).PNG" alt="The circuit model from the front." width="750" height="600">
 
+<img src="Images/MPU 5060.PNG" alt="The MPU board that is used in the Circuit" width="600" height="450">
+
+
 
 </p>
 </details>
@@ -272,9 +277,12 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 <br>
 
-* This new Iteration changes the previous build by **inverting** the holder so that the circuit would be **accessible** without the need to unscrew the whole **enclosure**. 
+* This new Iteration changes the previous build by **inverting** the holder so that the circuit would be **accessible** without the need to unscrew the whole **enclosure**. A cover slider is added to still have the module **protected**, and make it **accessibl** at the same time.
 
+<img src="Images/Circuit Holder (v.2).PNG" alt="First version of the holder" width="860" height="650">
 
+<br>
+<br>
 
 
 
