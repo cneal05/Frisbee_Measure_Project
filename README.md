@@ -60,6 +60,33 @@ graph TD;
 <br>
 
 
+### PROBLEMS and SOLUTIONS
+
+<details><summary>CLICK ME</summary>
+<p>
+ 
+<br>
+
+
+
+
+
+ 
+</p>
+</details>
+
+
+
+
+
+
+
+---
+
+<br>
+<br>
+
+
 ### Timeline (weekly)
 
 <details><summary>CLICK ME</summary>
@@ -85,7 +112,7 @@ graph TD;
 
    * **02/07/23** = Starting to write **new code** for **GPS**.
    
-* **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file. 
+* **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file. The MPU 6050 maxes out everytime 
    
    
    
