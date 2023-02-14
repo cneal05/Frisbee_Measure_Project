@@ -60,6 +60,34 @@ graph TD;
 <br>
 
 
+### Problems and Solutions
+
+<details><summary>CLICK ME</summary>
+<p>
+
+<br>
+
+* **Problem:**  The **MPU 6050** maxes out everytime even when the maximum value was changed. It practically dopesn't do anything as it doesn't collect any data when thrown.
+   
+   * **Solution:** The **MPU 6050** is replaced by the **GPS** and *only* the **GPS** will be used to collect **data**.
+
+
+
+
+
+ 
+</p>
+</details>
+
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
+
 ### Timeline (weekly)
 
 <details><summary>CLICK ME</summary>
@@ -84,6 +112,8 @@ graph TD;
 * **02/06/23** = Testing to see if the module collects data and stores it when thrown most likely multiple times. 
 
    * **02/07/23** = Starting to write **new code** for **GPS**.
+   
+* **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file.
    
    
    
@@ -126,6 +156,7 @@ graph TD;
 <img src="Images/Completed Circuit.jpg" alt="The circuit soldered, and assembeled with everything that will be used" width="650" height="750">
 
 <br>
+<br>
 
 * The circuit and the enclosure completed and assemble.
 
@@ -136,6 +167,7 @@ graph TD;
 <img src="Images/Completed Module with cover 2.jpg" alt="... together with the top cover2." width="550" height="550">
 
 <br>
+<br>
 
 * The first test launch of the Module mounted, but **NOT** collecting **Data**.
 
@@ -144,11 +176,13 @@ graph TD;
 <img src="Images/Test Launch.gif" alt="video of the module being launched." width="650" height="600">
 
 <br>
+<br>
 
 * A cutout was made separatly so that we can get access to the power switch **inside** the enclosure.
 
 <img src="Images/Module Cutout on Top.jpg" alt="small cutout for acess to power switch" width="650" height="600">
 
+<br>
 <br>
 
 * Ran two test runs that collected data and stored them in a CSV file.
@@ -157,9 +191,15 @@ graph TD;
 
 <img src="Images/backhand.gif" alt="Thrwoing the frisbee with the backhand grip." width="650" height="600">
 
+<br>
+<br>
+
+* The Circuit is changed to house a **GPS** rather than the **MPU 6050** and is rewired,
+
+<img src="Images/Circuit with GPS.jpg" alt="a new circuit that has the GPS and the MPU is removed." width="650" height="600">
 
 
-
+<br>
 <br>
 <br>
 
@@ -213,6 +253,9 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <img src="Images/Circuit (isotopic view).PNG" alt="The circuit model from the front." width="750" height="600">
 
+<img src="Images/MPU 5060.PNG" alt="The MPU board that is used in the Circuit" width="600" height="450">
+
+
 
 </p>
 </details>
@@ -248,13 +291,54 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <img src="Images/Frisbee (changed).PNG" alt="The circuit model from the side." width="950" height="150">
 
 
-
 </p>
 </details>
 
 
 <br>
 <br>
+
+---
+
+<br>
+<br>
+
+<details><summary>CIRCUIT HOLDER + EVERYTHING IN IT</summary>
+<p>
+
+<br>
+
+* This **first** version of the holder was designed to be **weather proof** so for that reason it was completly covering the **Circuit** and had to be **unscrewed** from the frisbee in order to get access to the **circuit.**
+
+<img src="Images/Circuit Holder (v.1).PNG" alt="First version of the holder" width="850" height="650">
+
+<br>
+<br>
+
+* This new Iteration changes the previous build by **inverting** the holder so that the circuit would be **accessible** without the need to unscrew the whole **enclosure**. A cover slider is added to still have the module **protected**, and make it **accessibl** at the same time.
+
+<img src="Images/Circuit Holder (v.2).PNG" alt="First version of the holder" width="860" height="650">
+
+<br>
+<br>
+
+
+
+
+
+</p>
+</details>
+
+
+
+
+
+
+
+
+<br>
+<br>
+
 
 ### [BACK TO CAD Designs](#cad-designs)
 
@@ -280,7 +364,7 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <br>
 
-* A first iteration of the code which confirms that the pico is communicating with the MPU5060.
+* A first iteration of the code which confirms that the pico is communicating with the MPU6050.
 
 ```python
 ```circuit_python
@@ -374,6 +458,107 @@ Values.close
 
 ```
 
+<br>
+<br>
+
+* This is the first iteration of the **GPS** code collecting **timestamp**, **altitude**, and **speed** when the Frisbee is thrown as the **MPU 6050** will not be used for technical issues.
+
+```python
+```circuit_python
+
+# type: ignore
+import busio
+import board
+import time
+import digitalio
+import math
+
+import adafruit_gps
+
+#assigns the scl to GP6 and assigns sda to GP7 on the pico board
+TX_pin = board.GP0
+RX_pin = board.GP1
+buttonPin = digitalio.DigitalInOut(board.GP17)
+buttonPin.direction = digitalio.Direction.INPUT
+buttonPin.pull = digitalio.Pull.UP 
+counter = 0
+list_x = []
+list_y = []
+list_z = []
+list_time = []
+
+uart = busio.UART(tx=TX_pin, rx=RX_pin, baudrate=9600, timeout=10)
+gps = adafruit_gps.GPS(uart, debug=False)
+
+while buttonPin.value == False:
+    pass
+    #print("Pass")
+timer = time.monotonic()
+last_print = time.monotonic()
+while True:
+    # Make sure to call gps.update() every loop iteration and at least twice
+    # as fast as data comes from the GPS unit (usually every second).
+    # This returns a bool that's true if it parsed new data (you can ignore it
+    # though if you don't care and instead look at the has_fix property).
+    gps.update()
+    # Every second print out current location details if there's a fix.
+    current = time.monotonic()
+    if current - last_print >= 1.0:
+        last_print = current
+        if not gps.has_fix:
+            # Try again if we don't have a fix yet.
+            print("Waiting for fix...")
+            continue
+        # We have a fix! (gps.has_fix is true)
+        # Print out details about the fix like location, date, etc.
+        print("=" * 40)  # Print a separator line.
+        print(
+            "Fix timestamp: {}/{}/{} {:02}:{:02}:{:02}".format(
+                gps.timestamp_utc.tm_mon,  # Grab parts of the time from the
+                gps.timestamp_utc.tm_mday,  # struct_time object that holds
+                gps.timestamp_utc.tm_year,  # the fix time.  Note you might
+                gps.timestamp_utc.tm_hour,  # not get all data like year, day,
+                gps.timestamp_utc.tm_min,  # month!
+                gps.timestamp_utc.tm_sec,
+            )
+        )
+        #print("Fix quality: {}".format(gps.fix_quality))
+        # Some attributes beyond latitude, longitude and timestamp are optional
+        # and might not be present.  Check if they're None before trying to use!
+        #if gps.satellites is not None:
+            #print("# satellites: {}".format(gps.satellites))
+        if gps.altitude_m is not None:
+            print("Altitude: {} meters".format(gps.altitude_m))
+        if gps.speed_knots is not None:
+            print("Speed: {} knots".format(gps.speed_knots))
+
+    ''' x_angular_velocity = mpu.gyro[0]
+        y_angular_velocity = mpu.gyro[1]
+        z_angular_velocity = mpu.gyro[2]
+        list_x = [list_x, x_angular_velocity]
+        list_y = [list_y, y_angular_velocity]
+        list_z.append(z_angular_velocity)
+        list_time.append(time.monotonic())
+        #print(z_angular_velocity)
+        current_time = time.monotonic() - timer
+        if current_time > 2 and math.fabs(mpu.gyro[0]+mpu.gyro[1]+mpu.gyro[2])<1:
+            break
+        #break out of while true and save data
+        '''
+    Values=open(f"/data-{}-{}-{} {:02}:{:02}:{:02}".format(
+                gps.timestamp_utc.tm_mon,  # Grab parts of the time from the
+                gps.timestamp_utc.tm_mday,  # struct_time object that holds
+                gps.timestamp_utc.tm_year,  # the fix time.  Note you might
+                gps.timestamp_utc.tm_hour,  # not get all data like year, day,
+                gps.timestamp_utc.tm_min,  # month!
+                gps.timestamp_utc.tm_sec,.csv),"w")
+    for i in range(len(list_z)):
+        Values.write(f"{list_time[i]}{list_z[i]}\n")
+    Values.close
+    
+    
+    
+```
 
 
 <br>
