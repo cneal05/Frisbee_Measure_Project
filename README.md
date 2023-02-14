@@ -60,12 +60,16 @@ graph TD;
 <br>
 
 
-### PROBLEMS and SOLUTIONS
+### Problems and Solutions
 
 <details><summary>CLICK ME</summary>
 <p>
- 
+
 <br>
+
+* **Problem:**  The **MPU 6050** maxes out everytime even when the maximum value was changed. It practically dopesn't do anything as it doesn't collect any data when thrown.
+   
+   * **Solution:** The **MPU 6050** is replaced by the **GPS** and *only* the **GPS** will be used to collect **data**.
 
 
 
@@ -75,11 +79,8 @@ graph TD;
 </p>
 </details>
 
-
-
-
-
-
+<br>
+<br>
 
 ---
 
@@ -112,7 +113,7 @@ graph TD;
 
    * **02/07/23** = Starting to write **new code** for **GPS**.
    
-* **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file. The MPU 6050 maxes out everytime 
+* **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file.
    
    
    
@@ -155,6 +156,7 @@ graph TD;
 <img src="Images/Completed Circuit.jpg" alt="The circuit soldered, and assembeled with everything that will be used" width="650" height="750">
 
 <br>
+<br>
 
 * The circuit and the enclosure completed and assemble.
 
@@ -165,6 +167,7 @@ graph TD;
 <img src="Images/Completed Module with cover 2.jpg" alt="... together with the top cover2." width="550" height="550">
 
 <br>
+<br>
 
 * The first test launch of the Module mounted, but **NOT** collecting **Data**.
 
@@ -173,11 +176,13 @@ graph TD;
 <img src="Images/Test Launch.gif" alt="video of the module being launched." width="650" height="600">
 
 <br>
+<br>
 
 * A cutout was made separatly so that we can get access to the power switch **inside** the enclosure.
 
 <img src="Images/Module Cutout on Top.jpg" alt="small cutout for acess to power switch" width="650" height="600">
 
+<br>
 <br>
 
 * Ran two test runs that collected data and stored them in a CSV file.
@@ -186,9 +191,15 @@ graph TD;
 
 <img src="Images/backhand.gif" alt="Thrwoing the frisbee with the backhand grip." width="650" height="600">
 
+<br>
+<br>
+
+* The Circuit is changed to house a **GPS** rather than the **MPU 6050** and is rewired,
+
+<img src="Images/Circuit with GPS.jpg" alt="a new circuit that has the GPS and the MPU is removed." width="650" height="600">
 
 
-
+<br>
 <br>
 <br>
 
