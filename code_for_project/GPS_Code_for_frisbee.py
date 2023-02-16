@@ -60,7 +60,7 @@ while True:
     # the fix time.  Note you might
     # not get all data like year, day,
     # month!        
-Values=open(f"/data/{gps.timestamp_utc.tm_mon}-{gps.timestamp_utc.tm_mday}-{gps.timestamp_utc.tm_year}/{gps.timestamp_utc.tm_hour,}.csv","w")
+Values=open(f"/data/{gps.timestamp_utc.tm_mon}-{gps.timestamp_utc.tm_mday}-{gps.timestamp_utc.tm_year} {gps.timestamp_utc.tm_hour}:{gps.timestamp_utc.tm_min}:{gps.timestamp_utc.tm_sec}.csv","w")
 #Values=open(f"/data/{gps.timestamp_utc.tm_mon}-{gps.timestamp_utc.tm_mday}-{gps.timestamp_utc.tm_year} {gps.timestamp_utc.tm_hour,}:{gps.timestamp_utc.tm_min,}:{gps.timestamp_utc.tm_sec}.csv","w")
 for i in range(len(list_z)):
     Values.write(f"{list_time[i]}{list_z[i]}\n")
