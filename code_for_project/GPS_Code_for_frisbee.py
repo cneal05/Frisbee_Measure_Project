@@ -20,8 +20,7 @@ list_time = []
 uart = busio.UART(tx=TX_pin, rx=RX_pin, baudrate=9600, timeout=10)
 gps = adafruit_gps.GPS(uart, debug=False)
 
-gps.update()
-base_altitude = gps.altitude_m
+base_altitude = 0
 
 while buttonPin.value == False:
     pass
@@ -42,8 +41,11 @@ while True:
         # Try again if we don't have a fix yet.
         print("Waiting for fix...")
         continue
+    if base_altitude == 0:
+        base_altitude = gps.altitude_m
+
     if gps.altitude_m is not None:
-        list_a.append(gps.altitude_m - base.altitude)
+        list_a.append(int(gps.altitude_m) - base_altitude)
     if gps.speed_knots is not None:
         list_s.append(gps.speed_knots)
     # The two below lines print fix quality, and amount of satellites, not required but can be useful
@@ -51,8 +53,9 @@ while True:
     # if gps.satellites is not None:
     #   print("# satellites: {}".format(gps.satellites))
     current_time = time.monotonic() - timer
-    if current_time > 2 and gps.speed_knots <1:
-        break
+    if gps.speed_knots is not None:
+        if int(current_time) > 2 and int(gps.speed_knots) <= 1:
+            break
     #break out of while true and save data
 
     # Grab parts of the time from the
@@ -62,6 +65,6 @@ while True:
     # month!        
 Values=open(f"/data/{gps.timestamp_utc.tm_mon}-{gps.timestamp_utc.tm_mday}-{gps.timestamp_utc.tm_year} {gps.timestamp_utc.tm_hour}:{gps.timestamp_utc.tm_min}:{gps.timestamp_utc.tm_sec}.csv","w")
 #Values=open(f"/data/{gps.timestamp_utc.tm_mon}-{gps.timestamp_utc.tm_mday}-{gps.timestamp_utc.tm_year} {gps.timestamp_utc.tm_hour,}:{gps.timestamp_utc.tm_min,}:{gps.timestamp_utc.tm_sec}.csv","w")
-for i in range(len(list_z)):
-    Values.write(f"{list_time[i]}{list_z[i]}\n")
+for i in range(len(list_s)):
+    Values.write(f"{list_s[i]},{list_a[i]}\n")
 Values.close
