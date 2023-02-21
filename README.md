@@ -70,6 +70,10 @@ graph TD;
 * **Problem:**  The **MPU 6050** maxes out everytime even when the maximum value was changed. It practically dopesn't do anything as it doesn't collect any data when thrown.
    
    * **Solution:** The **MPU 6050** is replaced by the **GPS** and *only* the **GPS** will be used to collect **data**.
+   
+* **Problem:** The **GPS**  loses it's fix after sometime randomly and needs to get a fix again.
+
+   * **Solution:** Although there isn't a **100% effective** solution, or any other **long term** solution that would prevent the problem, it is best to try and get a fix agian so that the GPS continues to work. 
 
 
 
