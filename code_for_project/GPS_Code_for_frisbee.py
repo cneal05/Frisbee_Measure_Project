@@ -44,9 +44,8 @@ while True:
     if base_altitude == 0:
         base_altitude = gps.altitude_m
 
-    if gps.altitude_m is not None:
+    if gps.altitude_m is not None and gps.speed_knots is not None:
         list_a.append(int(gps.altitude_m) - base_altitude)
-    if gps.speed_knots is not None:
         list_s.append(gps.speed_knots)
     # The two below lines print fix quality, and amount of satellites, not required but can be useful
     # print("Fix quality: {}".format(gps.fix_quality))
