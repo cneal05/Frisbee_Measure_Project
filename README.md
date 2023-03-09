@@ -267,6 +267,21 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <img src="Images/MPU 5060.PNG" alt="The MPU board that is used in the Circuit" width="600" height="450">
 
+<br>
+<br>
+
+* This version of the circuit holder changed the **original MPU6050** and replaced it with an **Adafruit GPS** and collects **alltitude and speed** much easier. The *MPU* wouldn't collect proper data so the need to replace it with something better was needed.
+
+<img src="Images/Circuit (v.2).PNG" alt="The (2.0) iteration of the circuit." width="600" height="500">
+
+
+<br>
+<br>
+
+
+* This iteration changes the location of **PowerBoost** and **GPS** as they are *closer* together. It also consists of *two* **switches**, one on the *PowerBoost* to turn the pico on or off, and a **second** next to the *PICO* which controls weather the circuit is in **read** mode or **write** mode.
+
+<img src="Images/Circuit (v.2.5).PNG" alt="The (2.5) iteration of the circuit." width="600" height="500">
 
 
 </p>
@@ -334,7 +349,9 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 <br>
 
-* This new version removes the previous **slide lid** and replaces it with a **hinge-connected** lid that is more mobile and opens without making contact with the frisbee's rim. the lid consists of a **T-Slot** locking mechanism for better 
+* This new version removes the previous **slide lid** and replaces it with a **hinge-connected** lid that is more mobile and opens without making contact with the frisbee's rim. the lid consists of a **bridge** locking mechanism for easier access. The Lids look inverted as they were accidentally placed there and wouldn't change direction. They work as intended for now.
+
+<img src="Images/Circuit Holder (v.3.5).PNG" alt="First version of the holder" width="860" height="650">
 
 
 
