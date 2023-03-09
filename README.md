@@ -70,6 +70,18 @@ graph TD;
 * **Problem:**  The **MPU 6050** maxes out everytime even when the maximum value was changed. It practically dopesn't do anything as it doesn't collect any data when thrown.
    
    * **Solution:** The **MPU 6050** is replaced by the **GPS** and *only* the **GPS** will be used to collect **data**.
+   
+* **Problem:** The **GPS**  loses it's fix after sometime randomly and needs to get a fix again.
+
+   * **Solution:** Although there isn't a **100% effective** solution, or any other **long term** solution that would prevent the problem, it is best to try and get a fix agian so that the GPS continues to work. 
+ 
+* **Problem:** The hinge that is being used in **ONSHAPE** doesn't exist in the lab.
+ 
+   * **Solution:** Will be making a hinge in **ONSHAPE** that will be **3D Printed**.
+ 
+* **Problem:** The hinge being on the inside of the box isn't possible as the top and the box will conlide with each other so the top would have to be trimmed. That also isn't possible as the top piece will be basically floating and relying on the hinge and will have a big gap between the top and the wall of the enclosure which differs from what the goal is.
+ 
+   * **Solution:** The hinge is moved on the outside so that the problem of overlapping is gone and the top can open without having any trimming needed.
 
 
 
@@ -303,7 +315,7 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 <br>
 
-<details><summary>CIRCUIT HOLDER + EVERYTHING IN IT</summary>
+<details><summary>CIRCUIT HOLDER</summary>
 <p>
 
 <br>
@@ -321,6 +333,8 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <br>
 <br>
+
+* This new version removes the previous **slide lid** and replaces it with a **hinge-connected** lid that is more mobile and opens without making contact with the frisbee's rim. the lid consists of a **T-Slot** locking mechanism for better 
 
 
 
