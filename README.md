@@ -18,6 +18,8 @@ Using this repository as a documentation place for the Frisbee Measure Project
  
  * [CODE](#code)
  
+ * [DATA](#data)
+ 
 <br>
 <br>
 
@@ -82,7 +84,10 @@ graph TD;
 * **Problem:** The hinge being on the inside of the box isn't possible as the top and the box will conlide with each other so the top would have to be trimmed. That also isn't possible as the top piece will be basically floating and relying on the hinge and will have a big gap between the top and the wall of the enclosure which differs from what the goal is.
  
    * **Solution:** The hinge is moved on the outside so that the problem of overlapping is gone and the top can open without having any trimming needed.
+   
+* **Problem:** The **GPS** collects data but something in the code *ends* the loop and doesn't collect the **full data** when the frisbee is thrown.
 
+   * **Solution:** 
 
 
 
@@ -689,11 +694,39 @@ Values.close
 
 <br>
 
+<br>
+<br>
+
+---
+
+<br>
+<br>
+
 
 ### DATA
+
+<br>
+
+<details><summary>CLICK ME</summary>
+<p>
+
+<br>
+<br>
+
+
+* The use of **MPU 6050** and the data collected from it **maxes** out each try, so it doesn't collect the full data from the throw of the **frisbee**.
+
+[link to MPU data collected](https://github.com/cneal05/Frisbee_Measure_Project/tree/main/data/MPU6050_data)
+
+<br>
+
+* The Switch to GPS **fixes** the previous problem but an **issue** in the code ends the loop early and doesn't collect the full data but instead does collects for approximately two seconds.
+
+[link to GPS data collected](https://github.com/cneal05/Frisbee_Measure_Project/tree/main/data/GPS_data) ** 2-28-2023- [the time] ONLY!
          
 
-
+</p>
+</details>
 
 <br>
 <br>
