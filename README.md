@@ -215,6 +215,14 @@ graph TD;
 
 <img src="Images/Circuit with GPS.jpg" alt="a new circuit that has the GPS and the MPU is removed." width="650" height="600">
 
+<br>
+<br>
+
+* The completed enclosure after many iterations including **hinges, new top, top opening mechanism, MPU 6050 to GPS switch, and new dimensions for the inclosure are all printed, completed and assembled.
+
+<img src="Images/Completed module (button view).jpg" alt="Button side view of the completed enclosure " width="650" height="600">
+
+
 
 <br>
 <br>
