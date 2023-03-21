@@ -158,11 +158,11 @@ graph TD;
 
    * **03/14/23** = The new hinge is printed and started to assembed the new **enclosure** together. the enclosure will be ready for another **test launch!**
    
-   * **03/16/23** = the Circuit is screwed to the enclosure and also added two switches that were added when remaking the **circuit** in onshape so that the whole design is known better if any problems were to arise.
+   * **03/16/23** = the Circuit is screwed to the enclosure and also added two switches that were added when remaking the **circuit** in onshape so that the whole design is known better if any problems were to arise. Also added a new section, **DATA**, which will hold all the datas collected when test launching.
    
 * **03/20/23** = The hinge is attached and discovered that the cable whole weren't moved when the new circuit got printed. Will have to dremele the enclosure to make room for the cable.
 
-   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure.
+   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure. 
    
    
 
