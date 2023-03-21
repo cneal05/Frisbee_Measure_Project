@@ -122,7 +122,7 @@ graph TD;
 
    * **02/06/23**  = Will find center of mass, and mount module, and mostly likely the first test launch will take place.
    
-   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed. A small cut out is incorporated to get access to the power switch as it was inaccessible before.
+   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed. A small cut out will be incorporated to get access to the power switch as it was inaccessible before.
    
    * **02/03/23** = A small cutout made in the enclosure is made to grant access to the power switch inside. 
    
@@ -131,6 +131,43 @@ graph TD;
    * **02/07/23** = Starting to write **new code** for **GPS**.
    
 * **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file.
+
+   * **02/14/23** = The inclosure is redesigned and a new **iteration** is being made that will have a different opening mechanism, the cutout will be added **officially** in *Onshape*.
+   
+   * **02/15/23** = continued working on the box and code, expanded the size and started to design new ways of opening the top.
+   
+   * **02/16/23** = started to design a hinge that will be 3D-printed and started to make changes to the **enclosure** to fit the hinge.
+   
+* **02/20/23** = one side of the hinge is made and has a pin attached to it with a gap as till will be a one build piece.
+
+   * **02/21/23** = the second part of the hinge is being made and will be ready for printing by next week. The circuit is also being **resoldered** so it can be more compact, and house the GPS while shifting some parts around.
+   
+   * **02/23/23** = the new modefied enclosure is printed and when checked, it is big enough to hold all the parts and be shorter than the **frisbee**.
+
+* **02/27/23** = The hinge is completed and can now be attached to the enclosure for further changes. The Circuit is almost completed, and will also be incorporated into **Onshape** so that the designs are up to date.
+
+   * **02/28/23** = The circuit changes are completed and everything has moved to their designated areas. The Onshape version if also completed and shifted.
+   
+* **03/06/23** = The hinge is printed and when attached to the box, seems to be too tight and leaves the enclosure top open when not screwed. The hinge is being remade in **Onshape** with the measurement errors held into account.
+
+   * **03/07/23** = The hinge changes are slowly being made with all the side mates and assemblies also modified from throwing errors as the hinges are mated to them.
+   
+   * **03/09/23** = The top and hinge are both working together and all the off measurements are corrected.
+   
+* **03/13/23** = all the Onshape changes are completed and the updated across the different asseblies.
+
+   * **03/14/23** = The new hinge is printed and started to assembed the new **enclosure** together. the enclosure will be ready for another **test launch!**
+   
+   * **03/16/23** = the Circuit is screwed to the enclosure and also added two switches that were added when remaking the **circuit** in onshape so that the whole design is known better if any problems were to arise.
+   
+* **03/20/23** = The hinge is attached and discovered that the cable whole weren't moved when the new circuit got printed. Will have to dremele the enclosure to make room for the cable.
+
+   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure.
+   
+   
+
+
+
    
    
    
