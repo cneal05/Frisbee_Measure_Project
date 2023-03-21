@@ -88,6 +88,11 @@ graph TD;
 * **Problem:** The **GPS** collects data but something in the code *ends* the loop and doesn't collect the **full data** when the frisbee is thrown.
 
    * **Solution:** 
+ 
+ 
+* **Problem:** The cable holes on the enclosure were off to the left.
+ 
+   * **Solution:** dremeled the enclosure.
 
 
 
