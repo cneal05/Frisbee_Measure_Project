@@ -89,10 +89,13 @@ graph TD;
 
    * **Solution:** 
  
- 
 * **Problem:** The cable holes on the enclosure were off to the left.
  
    * **Solution:** dremeled the enclosure.
+   
+* **Problem:** There is alot of resistance in the circuit as it won't turn on when powered while everything works fine.
+
+   * **Solution:** Find the problem and fix it by checking if any wires aren't connected, or if there is power going to the circuit at all.
 
 
 
