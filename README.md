@@ -10,6 +10,8 @@ Using this repository as a documentation place for the Frisbee Measure Project
  
  ## Table of Content
  
+ * [Problems and Solutions](#problems-and-solutions)
+ 
  * [Timeline](#timeline-weekly)
  
  * [Images](#progress-images)
