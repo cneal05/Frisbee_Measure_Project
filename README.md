@@ -97,8 +97,7 @@ graph TD;
    
 * **Problem:** There is alot of resistance in the circuit as it won't turn on when powered while everything works fine.
 
-   * **Solution:** Find the problem and fix it by checking if any wires aren't connected, or if there is power going to the circuit at all.
-
+   * **Solution:** = The GND pin from the GPS **wasn't** connected to the GND pin of the PICO, instead it was going to a signal pin. The circuit was resoldered and the pin was shifted to the correct spot.
 
 
 
@@ -172,7 +171,9 @@ graph TD;
    
 * **03/20/23** = The hinge is attached and discovered that the cable whole weren't moved when the new circuit got printed. Will have to dremele the enclosure to make room for the cable.
 
-   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure. 
+   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure. There also seems to be a problem with the connection of the circuit as the GPS won't turn on.
+   
+   * **03/23/23** = Discovered the connectivity problem which was the **GND pin** being connected to a **signal pin** instead of **another** *GND pin*. 
    
    
 
@@ -261,6 +262,22 @@ graph TD;
 * The Circuit is changed to house a **GPS** rather than the **MPU 6050** and is rewired,
 
 <img src="Images/Circuit with GPS.jpg" alt="a new circuit that has the GPS and the MPU is removed." width="650" height="600">
+
+<br>
+<br>
+
+* The first hinge design was completed and got printed.
+
+<img src="Images/Hinge.jpg" alt="first hinge design" width="500" height="500">
+
+<br>
+<br>
+
+* The new hinge is printed as the previvous one was just short and made the top stay open a bit. The new top is also attached and screwed with the hinge and they all work smoothly.
+
+<img src="Images/Completed module (hinge).jpg" alt="the new top AND hinge assembled" width="650" height="500">
+
+
 
 <br>
 <br>
