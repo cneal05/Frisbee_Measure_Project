@@ -87,9 +87,9 @@ graph TD;
  
    * **Solution:** The hinge is moved on the outside so that the problem of overlapping is gone and the top can open without having any trimming needed.
    
-* **Problem:** The **GPS** collects data but something in the code *ends* the loop and doesn't collect the **full data** when the frisbee is thrown.
+* **Problem:** The **MPU** collects data but something in the code *ends* the loop and doesn't collect the **full data** when the frisbee is thrown.
 
-   * **Solution:** 
+   * **Solution:** Changed one of the **PICO** code so that in the **for-loop** it would check for the **correct paramereters** instead of the parameters before which made it end **early.**
  
 * **Problem:** The cable holes on the enclosure were off to the left.
  
