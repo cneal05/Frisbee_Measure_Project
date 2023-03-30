@@ -788,7 +788,11 @@ Values.close
 
 * The use of **MPU 6050** and the data collected from it **maxes** out each try, so it doesn't collect the full data from the throw of the **frisbee**.
 
-[link to MPU data collected](https://github.com/cneal05/Frisbee_Measure_Project/tree/main/data/MPU6050_data)
+<img src="Images/MPU plotted Data.PNG" alt="first MPU plotted Data" width="860" height="650">
+
+<img src="Images/MPU plotted Data 2.PNG" alt="Second MPU plotted Data" width="860" height="650">
+
+
 
 <br>
 
