@@ -795,6 +795,9 @@ Values.close
 
 
 <br>
+<br>
+
+<br>
 
 * The Switch to GPS **fixes** the previous problem but an **issue** in the code ends the loop early and doesn't collect the full data but instead does collects for approximately two seconds.
 
