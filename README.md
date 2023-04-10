@@ -320,7 +320,7 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 * The completed CAD version of the **enclosure** and **circuit**
 
-<img src="Images/CAD Completed Circuit in Enclosure.PNG" alt="... together with the top cover2." width="750" height="650">
+<img src="Images/Circuit Holder + Circuit (v.3.8).PNG" alt="... together with the top cover2." width="750" height="650">
 
 <br>
 
