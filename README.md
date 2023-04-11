@@ -97,7 +97,11 @@ graph TD;
    
 * **Problem:** There is alot of resistance in the circuit as it won't turn on when powered while everything works fine.
 
-   * **Solution:** = The GND pin from the GPS **wasn't** connected to the GND pin of the PICO, instead it was going to a signal pin. The circuit was resoldered and the pin was shifted to the correct spot.
+   * **Solution:** The GND pin from the GPS **wasn't** connected to the GND pin of the PICO, instead it was going to a signal pin. The circuit was resoldered and the pin was shifted to the correct spot.
+   
+* **Problem:** The GPS is not getting any fixes even when connected for a long time.
+
+   * **Solution:** The circuit will be **connected** to a *battery* and *powerboost* and left **outside** until it gets a **fix** or runs out of **power**.
 
 
 
