@@ -179,6 +179,8 @@ graph TD;
    
    * **03/23/23** = Discovered the connectivity problem which was the **GND pin** being connected to a **signal pin** instead of **another** *GND pin*. 
    
+* **04/12/23** = Took the **module** outside and tried to see if we can get a *GPS* fix but after 15-20 minutes outside waiting, there was no fix to be measured and data to be collected.
+   
    
 
 
