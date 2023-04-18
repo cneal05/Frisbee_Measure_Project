@@ -209,8 +209,6 @@ graph TD;
 
 ### Progress Images
 
-<br>
-
 <details><summary>CLICK ME</summary>
 <p>
 
@@ -442,8 +440,6 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 </p>
 </details>
-
-
 
 
 
@@ -782,8 +778,6 @@ Values.close
 
 
 ### DATA
-
-<br>
 
 <details><summary>CLICK ME</summary>
 <p>
