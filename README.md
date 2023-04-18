@@ -61,7 +61,6 @@ graph TD;
 ---
 
 <br>
-<br>
 
 
 ### Problems and Solutions
@@ -110,11 +109,9 @@ graph TD;
 </details>
 
 <br>
-<br>
 
 ---
 
-<br>
 <br>
 
 
@@ -197,13 +194,8 @@ graph TD;
 </details>
 
 <br>
-<br>
 
 ---
-
-<br>
-<br>
-
 
 <br>
 
@@ -302,11 +294,9 @@ graph TD;
 </details>
 
 <br>
-<br>
 
 ---
 
-<br>
 <br>
 
 ### CAD Designs
@@ -440,15 +430,14 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 </p>
 </details>
-
-
-
-
-
+ 
 
 <br>
 <br>
+ 
+---
 
+<br>
 
 ### [BACK TO CAD Designs](#cad-designs)
 
@@ -460,7 +449,6 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 ---
 
-<br>
 <br>
 
 ### CODE
@@ -765,15 +753,12 @@ Values.close
 
 </p>
 </details>
+         
 
-<br>
-
-<br>
 <br>
 
 ---
 
-<br>
 <br>
 
 
@@ -807,7 +792,6 @@ Values.close
 </p>
 </details>
 
-<br>
 <br>
 
 ---
