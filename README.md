@@ -177,6 +177,10 @@ graph TD;
    * **03/23/23** = Discovered the connectivity problem which was the **GND pin** being connected to a **signal pin** instead of **another** *GND pin*. 
    
 * **04/12/23** = Took the **module** outside and tried to see if we can get a *GPS* fix but after 15-20 minutes outside waiting, there was no fix to be measured and data to be collected.
+
+* **04/17/23** = The GPS got a fix when left outside, but ended after 2 seconds and the battery died.
+
+* **04/20/23** = Extended the time it takes the code to end to **15** in order to check how often the GPS gets a **fix** and if the fixes were taken quickly, the module is then fixed.
    
    
 
