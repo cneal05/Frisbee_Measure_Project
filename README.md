@@ -101,6 +101,10 @@ graph TD;
 * **Problem:** The GPS is not getting any fixes even when connected for a long time.
 
    * **Solution:** The circuit will be **connected** to a *battery* and *powerboost* and left **outside** until it gets a **fix** or runs out of **power**.
+   
+* **Problem:** The data saved to the CSV file is all the same each time the code runs to collect data.
+
+   * **Solution:** 
 
 
 
