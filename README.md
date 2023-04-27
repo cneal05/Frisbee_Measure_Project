@@ -102,9 +102,9 @@ graph TD;
 
    * **Solution:** The circuit will be **connected** to a *battery* and *powerboost* and left **outside** until it gets a **fix** or runs out of **power**.
    
-* **Problem:** The data saved to the CSV file is all the same each time the code runs to collect data.
+* **Problem:** No data is being saved from any of the test runs even when there is no problem with the circuit, wiring, **and** the GPS getting a fix.
 
-   * **Solution:** 
+   * **Solution:** The code was rearranged and the data started to be saved again to the folder.
 
 
 
