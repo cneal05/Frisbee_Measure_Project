@@ -10,6 +10,8 @@ Using this repository as a documentation place for the Frisbee Measure Project
  
  ## Table of Content
  
+ * [Problems and Solutions](#problems-and-solutions)
+ 
  * [Timeline](#timeline-weekly)
  
  * [Images](#progress-images)
@@ -17,6 +19,8 @@ Using this repository as a documentation place for the Frisbee Measure Project
  * [CAD Designs](#cad-designs)
  
  * [CODE](#code)
+ 
+ * [DATA](#data)
  
 <br>
 <br>
@@ -57,7 +61,6 @@ graph TD;
 ---
 
 <br>
-<br>
 
 
 ### Problems and Solutions
@@ -82,8 +85,26 @@ graph TD;
 * **Problem:** The hinge being on the inside of the box isn't possible as the top and the box will conlide with each other so the top would have to be trimmed. That also isn't possible as the top piece will be basically floating and relying on the hinge and will have a big gap between the top and the wall of the enclosure which differs from what the goal is.
  
    * **Solution:** The hinge is moved on the outside so that the problem of overlapping is gone and the top can open without having any trimming needed.
+   
+* **Problem:** The **MPU** collects data but something in the code *ends* the loop and doesn't collect the **full data** when the frisbee is thrown.
 
+   * **Solution:** Changed one of the **PICO** code so that in the **for-loop** it would check for the **correct paramereters** instead of the parameters before which made it end **early.**
+ 
+* **Problem:** The cable holes on the enclosure were off to the left.
+ 
+   * **Solution:** dremeled the enclosure.
+   
+* **Problem:** There is alot of resistance in the circuit as it won't turn on when powered while everything works fine.
 
+   * **Solution:** The GND pin from the GPS **wasn't** connected to the GND pin of the PICO, instead it was going to a signal pin. The circuit was resoldered and the pin was shifted to the correct spot.
+   
+* **Problem:** The GPS is not getting any fixes even when connected for a long time.
+
+   * **Solution:** The circuit will be **connected** to a *battery* and *powerboost* and left **outside** until it gets a **fix** or runs out of **power**.
+   
+* **Problem:** No data is being saved from any of the test runs even when there is no problem with the circuit, wiring, **and** the GPS getting a fix.
+
+   * **Solution:** The code was rearranged and the data started to be saved again to the folder.
 
 
 
@@ -92,11 +113,9 @@ graph TD;
 </details>
 
 <br>
-<br>
 
 ---
 
-<br>
 <br>
 
 
@@ -117,7 +136,7 @@ graph TD;
 
    * **02/06/23**  = Will find center of mass, and mount module, and mostly likely the first test launch will take place.
    
-   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed. A small cut out is incorporated to get access to the power switch as it was inaccessible before.
+   * **02/02/2023** = **TimeLine** shortened by ** 1 week** as the **Center of Mass**, **Mounting the Module** on the **Frisbee** *AND* taking a **test launch** completed. A small cut out will be incorporated to get access to the power switch as it was inaccessible before.
    
    * **02/03/23** = A small cutout made in the enclosure is made to grant access to the power switch inside. 
    
@@ -126,6 +145,51 @@ graph TD;
    * **02/07/23** = Starting to write **new code** for **GPS**.
    
 * **02/13/23** = Got a GPS fix and it started printing out **speed** and **altitude** which will be added to the **CSV** file.
+
+   * **02/14/23** = The inclosure is redesigned and a new **iteration** is being made that will have a different opening mechanism, the cutout will be added **officially** in *Onshape*.
+   
+   * **02/15/23** = continued working on the box and code, expanded the size and started to design new ways of opening the top.
+   
+   * **02/16/23** = started to design a hinge that will be 3D-printed and started to make changes to the **enclosure** to fit the hinge.
+   
+* **02/20/23** = one side of the hinge is made and has a pin attached to it with a gap as till will be a one build piece.
+
+   * **02/21/23** = the second part of the hinge is being made and will be ready for printing by next week. The circuit is also being **resoldered** so it can be more compact, and house the GPS while shifting some parts around.
+   
+   * **02/23/23** = the new modefied enclosure is printed and when checked, it is big enough to hold all the parts and be shorter than the **frisbee**.
+
+* **02/27/23** = The hinge is completed and can now be attached to the enclosure for further changes. The Circuit is almost completed, and will also be incorporated into **Onshape** so that the designs are up to date.
+
+   * **02/28/23** = The circuit changes are completed and everything has moved to their designated areas. The Onshape version if also completed and shifted.
+   
+* **03/06/23** = The hinge is printed and when attached to the box, seems to be too tight and leaves the enclosure top open when not screwed. The hinge is being remade in **Onshape** with the measurement errors held into account.
+
+   * **03/07/23** = The hinge changes are slowly being made with all the side mates and assemblies also modified from throwing errors as the hinges are mated to them.
+   
+   * **03/09/23** = The top and hinge are both working together and all the off measurements are corrected.
+   
+* **03/13/23** = all the Onshape changes are completed and the updated across the different asseblies.
+
+   * **03/14/23** = The new hinge is printed and started to assembed the new **enclosure** together. the enclosure will be ready for another **test launch!**
+   
+   * **03/16/23** = the Circuit is screwed to the enclosure and also added two switches that were added when remaking the **circuit** in onshape so that the whole design is known better if any problems were to arise. Also added a new section, **DATA**, which will hold all the datas collected when test launching.
+   
+* **03/20/23** = The hinge is attached and discovered that the cable whole weren't moved when the new circuit got printed. Will have to dremele the enclosure to make room for the cable.
+
+   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure. There also seems to be a problem with the connection of the circuit as the GPS won't turn on.
+   
+   * **03/23/23** = Discovered the connectivity problem which was the **GND pin** being connected to a **signal pin** instead of **another** *GND pin*. 
+   
+* **04/12/23** = Took the **module** outside and tried to see if we can get a *GPS* fix but after 15-20 minutes outside waiting, there was no fix to be measured and data to be collected.
+
+* **04/17/23** = The GPS got a fix when left outside, but ended after 2 seconds and the battery died.
+
+   * **04/20/23** = Extended the time it takes the code to end to **15** in order to check how often the GPS gets a **fix** and if the fixes were taken quickly, the module is then fixed.
+   
+   
+
+
+
    
    
    
@@ -138,19 +202,12 @@ graph TD;
 </details>
 
 <br>
-<br>
 
 ---
 
 <br>
-<br>
-
-
-<br>
 
 ### Progress Images
-
-<br>
 
 <details><summary>CLICK ME</summary>
 <p>
@@ -210,6 +267,30 @@ graph TD;
 
 <img src="Images/Circuit with GPS.jpg" alt="a new circuit that has the GPS and the MPU is removed." width="650" height="600">
 
+<br>
+<br>
+
+* The first hinge design was completed and got printed.
+
+<img src="Images/Hinge.jpg" alt="first hinge design" width="500" height="500">
+
+<br>
+<br>
+
+* The new hinge is printed as the previvous one was just short and made the top stay open a bit. The new top is also attached and screwed with the hinge and they all work smoothly.
+
+<img src="Images/Completed module (hinge).jpg" alt="the new top AND hinge assembled" width="650" height="500">
+
+
+
+<br>
+<br>
+
+* The completed enclosure after many iterations including **hinges, new top, top opening mechanism, MPU 6050 to GPS switch, and new dimensions for the inclosure are all printed, completed and assembled.
+
+<img src="Images/Completed module (button view).jpg" alt="Button side view of the completed enclosure " width="650" height="600">
+
+
 
 <br>
 <br>
@@ -221,11 +302,9 @@ graph TD;
 </details>
 
 <br>
-<br>
 
 ---
 
-<br>
 <br>
 
 ### CAD Designs
@@ -243,14 +322,14 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 * The completed CAD version of the **enclosure** and **circuit**
 
-<img src="Images/CAD Completed Circuit in Enclosure.PNG" alt="... together with the top cover2." width="750" height="650">
+<img src="Images/Circuit Holder + Circuit (v.3.8).PNG" alt="... together with the top cover2." width="750" height="650">
 
 <br>
 
 ---
 
 <br>
-
+<br>
 
 <details><summary>CIRCUIT</summary>
 <p>
@@ -267,6 +346,21 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <img src="Images/MPU 5060.PNG" alt="The MPU board that is used in the Circuit" width="600" height="450">
 
+<br>
+<br>
+
+* This version of the circuit holder changed the **original MPU6050** and replaced it with an **Adafruit GPS** and collects **alltitude and speed** much easier. The *MPU* wouldn't collect proper data so the need to replace it with something better was needed.
+
+<img src="Images/Circuit (v.2).PNG" alt="The (2.0) iteration of the circuit." width="600" height="500">
+
+
+<br>
+<br>
+
+
+* This iteration changes the location of **PowerBoost** and **GPS** as they are *closer* together. It also consists of *two* **switches**, one on the *PowerBoost* to turn the pico on or off, and a **second** next to the *PICO* which controls weather the circuit is in **read** mode or **write** mode.
+
+<img src="Images/Circuit (v.2.5).PNG" alt="The (2.5) iteration of the circuit." width="600" height="500">
 
 
 </p>
@@ -334,7 +428,9 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 <br>
 <br>
 
-* This new version removes the previous **slide lid** and replaces it with a **hinge-connected** lid that is more mobile and opens without making contact with the frisbee's rim. the lid consists of a **T-Slot** locking mechanism for better 
+* This new version removes the previous **slide lid** and replaces it with a **hinge-connected** lid that is more mobile and opens without making contact with the frisbee's rim. the lid consists of a **bridge** locking mechanism for easier access. The Lids look inverted as they were accidentally placed there and wouldn't change direction. They work as intended for now.
+
+<img src="Images/Circuit Holder (v.3.5).PNG" alt="First version of the holder" width="860" height="650">
 
 
 
@@ -342,17 +438,14 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 </p>
 </details>
-
-
-
-
-
-
-
+ 
 
 <br>
 <br>
+ 
+---
 
+<br>
 
 ### [BACK TO CAD Designs](#cad-designs)
 
@@ -364,7 +457,6 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 ---
 
-<br>
 <br>
 
 ### CODE
@@ -669,10 +761,45 @@ Values.close
 
 </p>
 </details>
+         
 
 <br>
 
+---
+
 <br>
+
+
+### DATA
+
+<details><summary>CLICK ME</summary>
+<p>
+
+<br>
+<br>
+
+
+* The use of **MPU 6050** and the data collected from it **maxes** out each try, so it doesn't collect the full data from the throw of the **frisbee**.
+
+<img src="Images/MPU plotted Data.PNG" alt="first MPU plotted Data" width="860" height="650">
+
+<img src="Images/MPU plotted Data 2.PNG" alt="Second MPU plotted Data" width="860" height="650">
+
+
+
+<br>
+<br>
+
+<br>
+
+* The Switch to GPS **fixes** the previous problem but an **issue** in the code ends the loop early and doesn't collect the full data but instead does collects for approximately two seconds.
+
+[link to GPS data collected](https://github.com/cneal05/Frisbee_Measure_Project/tree/main/data/GPS_data) ** 2-28-2023- [the time] ONLY!
+         
+
+</p>
+</details>
+
 <br>
 
 ---
