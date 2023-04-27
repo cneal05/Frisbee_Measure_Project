@@ -184,7 +184,7 @@ graph TD;
 
 * **04/17/23** = The GPS got a fix when left outside, but ended after 2 seconds and the battery died.
 
-* **04/20/23** = Extended the time it takes the code to end to **15** in order to check how often the GPS gets a **fix** and if the fixes were taken quickly, the module is then fixed.
+   * **04/20/23** = Extended the time it takes the code to end to **15** in order to check how often the GPS gets a **fix** and if the fixes were taken quickly, the module is then fixed.
    
    
 
