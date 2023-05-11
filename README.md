@@ -105,6 +105,10 @@ graph TD;
 * **Problem:** No data is being saved from any of the test runs even when there is no problem with the circuit, wiring, **and** the GPS getting a fix.
 
    * **Solution:** The code was rearranged and the data started to be saved again to the folder.
+ 
+* **Problem:** Only one strand of data collected is saved even after it has gotten a fix.
+ 
+   * **Solution:** The starnd of code that saved the data was moved from the end to the while loop to save the data as its collecting it.
 
 
 
