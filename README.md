@@ -278,6 +278,8 @@ graph TD;
 
 <img src="Images/Hinge.jpg" alt="first hinge design" width="500" height="500">
 
+ 
+
 <br>
 <br>
 
@@ -298,7 +300,18 @@ graph TD;
 
 <br>
 <br>
+
+* The changes were made, and the enclosure was replaced on the frisbee for new testing and launched. Both tests went smooth and the data was saved to the **PICO**.
+ 
+<img src="Images/Latest Throw.gif" alt="underhand throw of the new changed frisbee." width="650" height="600">
+ 
+<img src="Images/Latest Throw 2.gif" alt="Tomahawk throw of the new changed frisbee." width="650" height="600">
+
+ 
 <br>
+<br>
+<br>
+ 
 
 ### [BACK TO Progress Images](#progress-images)
 
