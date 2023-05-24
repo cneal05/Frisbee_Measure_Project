@@ -895,6 +895,13 @@ while True:
 <br>
 <br>
 
+* The final data that was collected using the **GPS** during flight.
+ 
+<img src="Images/Altittude_by_Time_graph.PNG" alt="first MPU plotted Data" width="860" height="650">
+
+<img src="Images/Speed_by_Time_graph.PNG" alt="Second MPU plotted Data" width="860" height="650">
+ 
+<br>
 <br>
 
 * The Switch to GPS **fixes** the previous problem but an **issue** in the code ends the loop early and doesn't collect the full data but instead does collects for approximately two seconds.
