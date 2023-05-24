@@ -189,6 +189,8 @@ graph TD;
 * **04/17/23** = The GPS got a fix when left outside, but ended after 2 seconds and the battery died.
 
    * **04/20/23** = Extended the time it takes the code to end to **15** in order to check how often the GPS gets a **fix** and if the fixes were taken quickly, the module is then fixed.
+ 
+* **05/24/23** = After doing further tests to make sure the code worked and collected data, the **final** tests were done, the data **collected** properly, saved to the **CSV**, graphed and plotted, and the **PROJECT IS HENCE OF CONCLUDED.** The **Frisbee Measure Project** is **DONE**. 
    
    
 
