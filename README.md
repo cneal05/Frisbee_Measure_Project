@@ -70,19 +70,19 @@ graph TD;
 
 <br>
 
-* **Problem:**  The **MPU 6050** maxes out everytime even when the maximum value was changed. It practically dopesn't do anything as it doesn't collect any data when thrown.
+* **Problem:**  The **MPU 6050** maxes out everytime even when the maximum value was changed. It practically doesn't do anything as it doesn't collect any data when thrown.
    
    * **Solution:** The **MPU 6050** is replaced by the **GPS** and *only* the **GPS** will be used to collect **data**.
    
 * **Problem:** The **GPS**  loses it's fix after sometime randomly and needs to get a fix again.
 
-   * **Solution:** Although there isn't a **100% effective** solution, or any other **long term** solution that would prevent the problem, it is best to try and get a fix agian so that the GPS continues to work. 
+   * **Solution:** Although there isn't a **100% effective** solution, or any other **long term** solution that would prevent the problem, it is best to try and get a fix again so that the GPS continues to work. 
  
 * **Problem:** The hinge that is being used in **ONSHAPE** doesn't exist in the lab.
  
    * **Solution:** Will be making a hinge in **ONSHAPE** that will be **3D Printed**.
  
-* **Problem:** The hinge being on the inside of the box isn't possible as the top and the box will conlide with each other so the top would have to be trimmed. That also isn't possible as the top piece will be basically floating and relying on the hinge and will have a big gap between the top and the wall of the enclosure which differs from what the goal is.
+* **Problem:** The hinge being on the inside of the box isn't possible as the top and the box will collide with each other so the top would have to be trimmed. That also isn't possible as the top piece will be basically floating and relying on the hinge and will have a big gap between the top and the wall of the enclosure which differs from what the goal is.
  
    * **Solution:** The hinge is moved on the outside so that the problem of overlapping is gone and the top can open without having any trimming needed.
    
@@ -92,7 +92,7 @@ graph TD;
  
 * **Problem:** The cable holes on the enclosure were off to the left.
  
-   * **Solution:** dremeled the enclosure.
+   * **Solution:** Dremeled the enclosure.
    
 * **Problem:** There is alot of resistance in the circuit as it won't turn on when powered while everything works fine.
 
@@ -105,6 +105,10 @@ graph TD;
 * **Problem:** No data is being saved from any of the test runs even when there is no problem with the circuit, wiring, **and** the GPS getting a fix.
 
    * **Solution:** The code was rearranged and the data started to be saved again to the folder.
+ 
+* **Problem:** Only one strand of data collected is saved even after it has gotten a fix.
+ 
+   * **Solution:** The strand of code that saved the data was moved from the end to the while loop to save the data as its collecting it.
 
 
 
@@ -124,13 +128,13 @@ graph TD;
 <details><summary>CLICK ME</summary>
 <p>
 
-* **01/09/2023** =  completed the wiring circuit for collecting data and making the data collector be powered without any cable connection.
+* **01/09/2023** =  Completed the wiring circuit for collecting data and making the data collector be powered without any cable connection.
 
 * **01/17/2023** =  Finished CAD Designs of the **enclousure** and placed them for printing.
 
-   * **01/19/2023** = the printed designs were finished but were incorrect. The **enclousure**turned out to be short for the whole circuit, so all the measurements were fixed and checked, and the new enclousure was placed for printing.
+   * **01/19/2023** = The printed designs were finished but were incorrect. The **enclousure**turned out to be short for the whole circuit, so all the measurements were fixed and checked, and the new enclousure was placed for printing.
 
-* **01/23/23** = the new enclosure is printed, and began sanding edges and gaps to prevent collisions.
+* **01/23/23** = The new enclosure is printed, and began sanding edges and gaps to prevent collisions.
 
 * **01/30/23** = By the end of this week, the module (**circuit** and **enclosure**) will be completed.
 
@@ -148,15 +152,15 @@ graph TD;
 
    * **02/14/23** = The inclosure is redesigned and a new **iteration** is being made that will have a different opening mechanism, the cutout will be added **officially** in *Onshape*.
    
-   * **02/15/23** = continued working on the box and code, expanded the size and started to design new ways of opening the top.
+   * **02/15/23** = Continued working on the box and code, expanded the size and started to design new ways of opening the top.
    
-   * **02/16/23** = started to design a hinge that will be 3D-printed and started to make changes to the **enclosure** to fit the hinge.
+   * **02/16/23** = Started to design a hinge that will be 3D-printed and started to make changes to the **enclosure** to fit the hinge.
    
-* **02/20/23** = one side of the hinge is made and has a pin attached to it with a gap as till will be a one build piece.
+* **02/20/23** = One side of the hinge is made and has a pin attached to it with a gap as till will be a one build piece.
 
-   * **02/21/23** = the second part of the hinge is being made and will be ready for printing by next week. The circuit is also being **resoldered** so it can be more compact, and house the GPS while shifting some parts around.
+   * **02/21/23** = The second part of the hinge is being made and will be ready for printing by next week. The circuit is also being **resoldered** so it can be more compact, and house the GPS while shifting some parts around.
    
-   * **02/23/23** = the new modefied enclosure is printed and when checked, it is big enough to hold all the parts and be shorter than the **frisbee**.
+   * **02/23/23** = The new modefied enclosure is printed and when checked, it is big enough to hold all the parts and be shorter than the **frisbee**.
 
 * **02/27/23** = The hinge is completed and can now be attached to the enclosure for further changes. The Circuit is almost completed, and will also be incorporated into **Onshape** so that the designs are up to date.
 
@@ -168,15 +172,15 @@ graph TD;
    
    * **03/09/23** = The top and hinge are both working together and all the off measurements are corrected.
    
-* **03/13/23** = all the Onshape changes are completed and the updated across the different asseblies.
+* **03/13/23** = All the Onshape changes are completed and the updated across the different asseblies.
 
    * **03/14/23** = The new hinge is printed and started to assembed the new **enclosure** together. the enclosure will be ready for another **test launch!**
    
-   * **03/16/23** = the Circuit is screwed to the enclosure and also added two switches that were added when remaking the **circuit** in onshape so that the whole design is known better if any problems were to arise. Also added a new section, **DATA**, which will hold all the datas collected when test launching.
+   * **03/16/23** = The Circuit is screwed to the enclosure and also added two switches that were added when remaking the **circuit** in onshape so that the whole design is known better if any problems were to arise. Also added a new section, **DATA**, which will hold all the datas collected when test launching.
    
 * **03/20/23** = The hinge is attached and discovered that the cable whole weren't moved when the new circuit got printed. Will have to dremele the enclosure to make room for the cable.
 
-   * **03/21/23** = *completed* the dremeling and started to **reassemble** the enclosure. There also seems to be a problem with the connection of the circuit as the GPS won't turn on.
+   * **03/21/23** = *Completed* the dremeling and started to **reassemble** the enclosure. There also seems to be a problem with the connection of the circuit as the GPS won't turn on.
    
    * **03/23/23** = Discovered the connectivity problem which was the **GND pin** being connected to a **signal pin** instead of **another** *GND pin*. 
    
@@ -274,6 +278,8 @@ graph TD;
 
 <img src="Images/Hinge.jpg" alt="first hinge design" width="500" height="500">
 
+ 
+
 <br>
 <br>
 
@@ -294,7 +300,18 @@ graph TD;
 
 <br>
 <br>
+
+* The changes were made, and the enclosure was replaced on the frisbee for new testing and launched. Both tests went smooth and the data was saved to the **PICO**.
+ 
+<img src="Images/Latest Throw.gif" alt="underhand throw of the new changed frisbee." width="650" height="600">
+ 
+<img src="Images/Latest Throw 2.gif" alt="Tomahawk throw of the new changed frisbee." width="650" height="600">
+
+ 
 <br>
+<br>
+<br>
+ 
 
 ### [BACK TO Progress Images](#progress-images)
 
@@ -466,7 +483,7 @@ Link to the [Onshape](https://cvilleschools.onshape.com/documents/8f23dd08753053
 
 <br>
 
-**Description:** All *iterations* and **methods** to make the circuit, functions as should are present. The code runs the **methods**, and collects the data recieved and puts them in a **CSV file** which displays the Angular velcoity and time in an excel sheet.
+**Description:** All *iterations* and **methods** to make the circuit, functions as should are present. The code runs the **methods**, and collects the data recieved and puts them in a **CSV file** which displays the Angular velocity and time in an excel sheet.
 
 <br>
 
@@ -513,7 +530,7 @@ while True:
 <br>
 <br>
 
-* This is the completed **code** for the Moduel, it **collects** the *data*, stores it in a CSV file, incorporates the button function where the module won't collect data as long as the button is held (**button value = false**).
+* This is the completed **code** for the Module, it **collects** the *data*, stores it in a CSV file, incorporates the button function where the module won't collect data as long as the button is held (**button value = false**).
 
 ```python
 ```circuit_python
@@ -756,6 +773,94 @@ Values.close
 <br>
 <br>
 
+* This is the **Final** iteration of the **GPS** code, it saves **Speed**, **Altitude**, and **Time** on to the **CSV** file.
+
+
+```python
+```circuit_python
+
+# type: ignore
+import busio
+import board
+import time
+import digitalio
+import random
+import adafruit_gps
+
+#assigns the scl to GP6 and assigns sda to GP7 on the pico board
+TX_pin = board.GP0
+RX_pin = board.GP1
+buttonPin = digitalio.DigitalInOut(board.GP17)
+buttonPin.direction = digitalio.Direction.INPUT
+buttonPin.pull = digitalio.Pull.UP 
+counter = 0
+list_a = []
+list_s = []
+list_time = []
+ 
+uart = busio.UART(tx=TX_pin, rx=RX_pin, baudrate=9600, timeout=10)
+gps = adafruit_gps.GPS(uart, debug=False)
+
+prev_alt = 0.0
+prev_speed = 0.0
+base_altitude = 0.0
+
+while buttonPin.value == False:
+    pass
+    #print("Pass")
+timer = time.monotonic()
+last_print = time.monotonic()
+Values=open(f"/data/{random.randint(1, 1000)}.csv","w")
+
+while True:
+    print(base_altitude)
+    update = gps.update()
+    # Make sure to call gps.update() every loop iteration and at least twice
+    # as fast as data comes from the GPS unit (usually every second).
+    # This returns a bool that's true if it parsed new data (you can ignore it
+    # though if you don't care and instead look at the has_fix property).
+    gps.update()
+    # Every second print out current location details if there's a fix.
+    current = time.monotonic()
+    last_print = current
+    if not gps.has_fix:
+        # Try again if we don't have a fix yet.
+        print("Waiting for fix...")
+        continue
+    if base_altitude == 0:
+        base_altitude = gps.altitude_m
+    if gps.altitude_m is not None and gps.speed_knots is not None:   
+    
+        altitude = round(float(gps.altitude_m), 3)
+        speed = round(float(gps.speed_knots), 3)
+        print(speed)
+        if update and not ((prev_alt == altitude) and (prev_speed == speed)):
+            list_a.append(altitude - base_altitude)
+            list_s.append(speed)
+            Values.write(f"{time.monotonic()},{altitude - base_altitude},{speed}\n")
+            Values.flush()
+            print("data is being collected")
+        # The two below lines print fix quality, and amount of satellites, not required but can be useful
+        # print("0Fix quality: {}".format(gps.fix_quality))
+        # if gps.satellites is not None:
+        #   print("# satellites: {}".format(gps.satellites))
+            prev_alt = altitude
+            prev_speed = speed
+    current_time = time.monotonic() - timer
+
+```
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
 ### [BACK TO Code](#code)
 
 
@@ -790,6 +895,13 @@ Values.close
 <br>
 <br>
 
+* The final data that was collected using the **GPS** during flight.
+  * I'm not entirely sure what the altitude by time graph is showing but it is what the collected data created.
+<img src="Images/Altitude_by_Time_graph.png" alt="GPS Altitdue By Time Graph" width="860" height="650">
+
+<img src="Images/Speed_By_Time_graph.png" alt="GPS Speed By Time Graph" width="860" height="650">
+ 
+<br>
 <br>
 
 * The Switch to GPS **fixes** the previous problem but an **issue** in the code ends the loop early and doesn't collect the full data but instead does collects for approximately two seconds.
