@@ -896,7 +896,7 @@ while True:
 <br>
 
 * The final data that was collected using the **GPS** during flight.
- 
+  * I'm not entirely sure what the altitude by time graph is showing but it is what the collected data created.
 <img src="Images/Altitude_by_Time_graph.png" alt="GPS Altitdue By Time Graph" width="860" height="650">
 
 <img src="Images/Speed_By_Time_graph.png" alt="GPS Speed By Time Graph" width="860" height="650">
