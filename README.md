@@ -897,9 +897,9 @@ while True:
 
 * The final data that was collected using the **GPS** during flight.
  
-<img src="Images/Altittude_by_Time_graph.PNG" alt="first MPU plotted Data" width="860" height="650">
+<img src="Images/Altittude_by_Time_graph.png" alt="GPS Altitdue By Time Graph" width="860" height="650">
 
-<img src="Images/Speed_by_Time_graph.PNG" alt="Second MPU plotted Data" width="860" height="650">
+<img src="Images/Speed_by_Time_graph.png" alt="GPS Speed By Time Graph" width="860" height="650">
  
 <br>
 <br>
